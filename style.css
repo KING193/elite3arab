@@ -9,10 +9,27 @@
     transition: all .2s linear;
 }
 
-body {
-    background: linear-gradient(
-        to right,
-        red,
-        orange,
-    );
+.Interface {
+    background: radial-gradient(at top right, #4a1f17 0%, #FFFFFF00 70%), url(img/IT-Business-BG-Image.webp);
+    background-color: #0e121a;
+    display: flex;
+    justify-content: center;
+}
+
+.content_Interface {
+    
+}
+
+.Interface {
+    color: white;
+}
+
+.content_Interface div {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 431px;
+    height: 209px;
 }
