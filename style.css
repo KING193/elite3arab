@@ -52,12 +52,40 @@
     width: 83%;
     border-radius: 10px;
     border: solid 1px var(--icon-4);
+    margin-bottom: 200px;
 }
 
-/* .page_2 {
+.page_2 {
     background: var(--background-2);
 }
 
-.content {
+.page_2 {
     display: flex;
-} */
+    align-items: stretch;
+}
+
+.page_2 .content {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.top {
+    grid-column: 3/ 1;
+}
+
+.down {
+    grid-row: 3/3;
+}
+
+
+
+.content_2 {
+    margin-left: 120px;
+}
+
+.content_2 img{
+    border-radius: 10px;
+    width: 76%;
+    margin: 50px 55px 55px 50px;
+}
