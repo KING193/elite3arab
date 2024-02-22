@@ -250,6 +250,13 @@ i:hover {
 }
 
 /*  */
+
+.page_5 .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .page_5 ul {
     list-style: none;
     background-color: var(--background-5);
@@ -284,6 +291,7 @@ i:hover {
 .page_5 ul li p.title:hover {
     color: var(--icon-3);
     cursor: pointer;
+    padding-bottom: 50px;
 }
 
 .page_5 ul li:hover ul.dropdown{
