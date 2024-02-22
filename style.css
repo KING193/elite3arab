@@ -154,11 +154,22 @@ i:hover {
     display: flex;
     justify-content: space-around;
     Align-items: center;
-    height: 22em;
+    height: 30em;
 }
 
 .min_box {
     color: var(--text-1);
+    padding: 40px;
+    font-size: 1.7em;
+}
+
+.min_box h3 {
+    font-size: 0.8em;
+}
+
+.min_box h1 {
+    font-size: 2.6em;
+    font-weight: 200;
 }
 
 .min_box p {
