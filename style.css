@@ -5,6 +5,8 @@
 :root {
     --background-1: #4a1f17;
     --background-2: #0e121a;
+    --background-3: #243a7e;
+    --background-4: #141b26;
     --icon-1: #08c16a;
     --icon-2: #FF7777;
     --icon-3: #3662ff;
@@ -148,6 +150,7 @@ i:hover {
 }
 
 .box {
+    background:  radial-gradient(at top right, var(--background-3) 0%, var(--background-4) 75%);
     border: solid 1px var(--icon-3);
     border-radius: 8px;
     padding: 2.3em;
@@ -174,8 +177,20 @@ i:hover {
 
 .min_box p {
     color: var(--text-3);
+    font-size: 0.74em;
 }
 
 .min_box h6 {
     color: var(--text-2);
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.min_p {
+    margin-bottom: 1.8em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 5px 0;
+    font-size: 0.6em;
 }
