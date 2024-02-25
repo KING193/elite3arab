@@ -245,7 +245,11 @@ i:hover {
     font-weight: 600;
 }
 
-.page_5 i:hover {
+.page_5 i.fa-angle-down {
+    padding-left: 90px;
+}
+
+.page_5 i.fa-angle-down:hover {
     color: var(--icon-3);
 }
 
@@ -255,11 +259,13 @@ i:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--background-5);
+    padding: 10px 100px;
+    border-radius: 10px;
 }
 
 .page_5 ul {
     list-style: none;
-    background-color: var(--background-5);
 }
 
 .page_5 ul li {
@@ -283,9 +289,15 @@ i:hover {
 .page_5 ul li ul.dropdown {
     width: 100%;
     background: var(--background-5);
-    position: absolute;
+    position: relative;
     z-index: 999;
     display: none;
+}
+
+.page_5 hr {
+    color: var(--icon-4);
+    border: 1px solid;
+    width: 130%;
 }
 
 .page_5 ul li p.title:hover {
