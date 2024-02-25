@@ -291,7 +291,6 @@ i:hover {
 .page_5 ul li p.title:hover {
     color: var(--icon-3);
     cursor: pointer;
-    padding-bottom: 50px;
 }
 
 .page_5 ul li:hover ul.dropdown{
