@@ -309,7 +309,16 @@ i:hover {
     width: 100%;
 }
 
+.page_5 ul li p.title {
+    transition: 0.7s ease;
+}
+
 .page_5 ul li p.title:hover {
+    color: var(--icon-3);
+    cursor: pointer;
+}
+
+.page_5 ul li p.title:hover + div.icon{ /* star */
     color: var(--icon-3);
     cursor: pointer;
 }
