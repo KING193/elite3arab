@@ -272,6 +272,7 @@ i:hover {
 .page_5 ul li {
     display: inline-block;
     position: relative;
+    text-align: center;
 }
 
 .page_5 ul li p {
