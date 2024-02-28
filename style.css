@@ -247,8 +247,7 @@ i:hover {
 }
 
 .page_5 i.fa-angle-down {
-    padding-left: 0;
-    /* font-weight: 200; */
+    transform: translate(260%, 0);
 }
 
 .page_5 i.fa-angle-down:hover {
@@ -318,8 +317,6 @@ i:hover {
 
 .page_5 ul li p.title {
     transition: 0.7s ease;
-    /* display: flex;
-    flex-direction: row; */
 }
 
 .page_5 ul li p.title:hover {
