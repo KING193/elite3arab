@@ -275,9 +275,13 @@ i:hover {
     text-align: center;
 }
 
-.page_5 ul li p {
+.page_5 ul li .top_5 {
+    display: flex;
+}
+
+.page_5 ul li p.title {
     display: block;
-    padding: 20px 25px;
+    padding: 30px 25px;
     color: var(--text-1);
     text-decoration: none;
     text-align: center;
@@ -292,6 +296,8 @@ i:hover {
     font-size: 1em;
     font-weight: 300;
     font-family: "Cairo", sans-serif;
+    padding: 0;
+    width: 100%;
 }
 
 .page_5 ul li ul.dropdown {
@@ -311,11 +317,17 @@ i:hover {
 
 .page_5 ul li p.title {
     transition: 0.7s ease;
+    display: flex;
+    flex-direction: row;
 }
 
 .page_5 ul li p.title:hover {
     color: var(--icon-3);
     cursor: pointer;
+}
+
+div.icon {
+    padding-top: 27px;
 }
 
 .page_5 ul li p.title:hover + div.icon{ /* star */
