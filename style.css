@@ -263,6 +263,7 @@ i:hover {
     align-items: center;
     background-color: var(--background-5);
     border-radius: 10px;
+    width: 55%;
 }
 
 .page_5 ul {
@@ -277,6 +278,7 @@ i:hover {
 
 .page_5 ul li .top_5 {
     display: flex;
+    justify-content: center;
 }
 
 .page_5 ul li p.title {
@@ -304,8 +306,7 @@ i:hover {
     width: 100%;
     background: var(--background-5);
     position: relative;
-    z-index: 999;
-    display: none;
+    display: none;   
 }
 
 .page_5 hr {
@@ -317,8 +318,8 @@ i:hover {
 
 .page_5 ul li p.title {
     transition: 0.7s ease;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .page_5 ul li p.title:hover {
@@ -327,7 +328,7 @@ i:hover {
 }
 
 div.icon {
-    padding-top: 27px;
+    padding-top: 37px;
 }
 
 .page_5 ul li p.title:hover + div.icon{ /* star */
