@@ -16,6 +16,7 @@
     --text-2: #F0D607;
     --text-3: #fffc;
     --text-4: #999ea7;
+    --text-5: #A8A8A8;
     --hr-1: #FFFFFF12;
     --hr-2: #9F9F9F36;
 }
@@ -173,6 +174,7 @@ i:hover {
     color: var(--text-1);
     padding: 40px;
     font-size: 1.7em;
+    padding-top: 65px;
 }
 
 .min_box h3 {
@@ -191,8 +193,9 @@ i:hover {
 
 .min_box h6 {
     color: var(--text-2);
-    font-size: 0.9em;
-    font-weight: 300;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Cairo", sans-serif;
 }
 
 .min_p {
@@ -202,6 +205,10 @@ i:hover {
     align-content: space-between;
     padding: 5px 0;
     font-size: 0.6em;
+}
+
+.min_p strong {
+    font-size: 0.8em;
 }
 
 .page_4 {
@@ -400,4 +407,16 @@ div.icon {
     align-items: center;
     justify-content: center;
     height: 382px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+footer p {
+    color: var(--text-5);
+    font-size: 0.6em;
+    margin-left: 151px;
 }
