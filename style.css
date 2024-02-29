@@ -208,7 +208,12 @@ i:hover {
 }
 
 .min_p strong {
+    font-size: 0.7em;
+}
+
+.min_p span {
     font-size: 0.8em;
+    font-family: "Cairo", sans-serif;
 }
 
 .page_4 {
