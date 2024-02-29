@@ -17,6 +17,7 @@
     --text-3: #fffc;
     --text-4: #999ea7;
     --hr-1: #FFFFFF12;
+    --hr-2: #9F9F9F36;
 }
 
 * {
@@ -385,4 +386,18 @@ div.icon {
 
 .page_6 .content a:hover {
     background-color: var(--icon-4);
+}
+
+.end {
+    color: var(--hr-2);
+    border: solid;
+    border-width: 1px 0px 0px 0px;
+    width: 100%;
+}
+
+.page_7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 382px;
 }
