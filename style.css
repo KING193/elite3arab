@@ -244,6 +244,7 @@ i:hover {
     font-size: 48px;
     font-family: "Changa", sans-serif;
     font-weight: 600;
+    padding-top: 1em;
 }
 
 .page_5 i.fa-angle-down {
@@ -273,6 +274,7 @@ i:hover {
     display: inline-block;
     position: relative;
     text-align: center;
+    transition: 0.7s ease;
 }
 
 .page_5 ul li .top_5 {
@@ -295,17 +297,18 @@ i:hover {
 
 .page_5 ul li ul.dropdown li p {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Cairo", sans-serif;
     padding: 0;
     width: 100%;
+    padding-bottom: 80px;
 }
 
 .page_5 ul li ul.dropdown {
     width: 100%;
     background: var(--background-5);
     position: relative;
-    display: none;   
+    display: none;
 }
 
 .page_5 hr {
@@ -319,16 +322,16 @@ i:hover {
     transition: 0.7s ease;
 }
 
-.page_5 ul li p.title:hover {
-    color: var(--icon-3);
-    cursor: pointer;
-}
-
 div.icon {
     padding-top: 37px;
 }
 
-.page_5 ul li p.title:hover + div.icon{ /* star */
+.page_5 ul li:hover p.title { 
+    color: var(--icon-3);
+    cursor: pointer;
+}
+
+.page_5 ul li:hover p.title + div.icon { /* star */
     color: var(--icon-3);
     cursor: pointer;
 }
