@@ -14,3 +14,17 @@ magnetic.addEventListener('mousemove', (e) => {
 magnetic.addEventListener("mouseout", (e) => {
     magnetic.style.transform = ``
 })
+
+const cursor = document.querySelector(".cursor")
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute('style', 'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px')
+})
+
+// 
+
+const cursor2 = document.querySelector(".cursor2")
+
+document.addEventListener('mousemove', e => {
+    cursor2.setAttribute('style', 'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px')
+})
