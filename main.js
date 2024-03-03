@@ -87,3 +87,28 @@ const observer_left = new IntersectionObserver((entries) => {
 
 const hidden_left = document.querySelectorAll('.hidden_left');
 hidden_left.forEach((el) => observer_left.observe(el));
+
+// 
+
+let num = document.querySelectorAll('.nums h1')
+let page_4 = document.querySelector('.page_4')
+let numted = false
+
+window.onscroll = function() {
+    if (window.scrollY >= page_4.offsetTop / 1.2) {
+        if (!numted) {
+            num.forEach((num) => numCount(num))
+        }
+        numted = true
+    }
+}
+
+function numCount(el) {
+    let goal = el.dataset.goal
+    let count = setInterval(() => {
+        el.textContent++
+        if (el.textContent == goal) {
+            clearInterval(count)
+        }
+    }, 2000 / goal)
+}

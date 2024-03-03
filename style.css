@@ -168,7 +168,7 @@ i:hover {
     justify-content: space-around;
     Align-items: center;
     height: 30em;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     height: 100%;
 }
 
