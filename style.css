@@ -168,6 +168,8 @@ i:hover {
     justify-content: space-around;
     Align-items: center;
     height: 30em;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .min_box {
@@ -455,3 +457,58 @@ footer p {
     pointer-events: none;
     opacity: 0.8;
 }
+
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+}
+
+.show { 
+    opacity: 1;
+    filter: blur(0);
+}
+
+.hidden_top {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.show_top { 
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden_right {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(20%);
+    transition: all 0.8s;
+}
+
+.show_right {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden_left {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-100%);
+    transition: all 0.8s;
+}
+
+.show_left {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* .top:nth-child(3) { #star 
+    transition-delay: 8000ms;
+} */
+
