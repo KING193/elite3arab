@@ -233,7 +233,19 @@ i:hover {
     justify-content: center;
 }
 
+.page_4 .num div {
+    display: flex;
+    align-items: center;
+}
+
 .page_4 .num h1 {
+    color: var(--text-1);
+    font-size: 56px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.page_4 .num h2 {
     color: var(--text-1);
     font-size: 56px;
     padding-bottom: 5px;
@@ -508,7 +520,18 @@ footer p {
     transform: translateX(0);
 }
 
-/* .top:nth-child(3) { #star 
-    transition-delay: 8000ms;
-} */
+.down:nth-child(2) { /* #star */
+    transition-delay: 200ms;
+}
 
+.down:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.down:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.top .hidden_left {
+    transition-delay: 10ms;
+}
