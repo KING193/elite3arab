@@ -402,9 +402,9 @@ div.icon {
     background-color: var(--icon-4);
 }
 
-.page_6 .content a:hover ~ .cursor2 {
+/* .page_6 .content a:hover ~ .cursor2 {
     transform: scale(0.94);
-}
+} */
 
 .end {
     color: var(--hr-2);
