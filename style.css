@@ -351,6 +351,8 @@ i:hover {
 
 div.icon {
     padding-top: 37px;
+    
+    pointer-events: none;
 }
 
 .page_5 ul li:hover p.title { 
@@ -414,9 +416,9 @@ div.icon {
     background-color: var(--icon-4);
 }
 
-/* .page_6 .content a:hover ~ .cursor2 {
-    transform: scale(0.94);
-} */
+.hoverEffect {
+    transform: scale(0.8) !important;
+}
 
 .end {
     color: var(--hr-2);

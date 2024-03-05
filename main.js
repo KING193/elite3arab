@@ -112,3 +112,25 @@ function numCount(el) {
         }
     }, 2000 / goal)
 }
+
+// 
+
+element1 = document.querySelector(".magnetic")
+element2 = document.querySelector(".cursor2")
+element3 = document.querySelector(".page_7 a")
+
+magnetic.addEventListener('mouseover', function() {
+    element2.classList.add('hoverEffect')
+})
+
+magnetic.addEventListener('mouseout', function() {
+    element2.classList.remove('hoverEffect')
+})
+
+element3.addEventListener('mouseover', function() {
+    element2.classList.add('hoverEffect')
+})
+
+element3.addEventListener('mouseout', function() {
+    element2.classList.remove('hoverEffect')
+})
