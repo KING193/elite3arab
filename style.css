@@ -603,7 +603,7 @@ footer p {
     }
 
     .page_2 .content .top .title {
-        width: 600px;
+        width: 585px;
     }
 
     .page_2 .content .top h4 {
@@ -734,6 +734,34 @@ footer p {
     }
 }
 
+@media (max-width: 704px) {
+    .min_box:nth-child(1){
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 643px) {
+    .page_2 .content .top .title {
+        font-size: 1.2em;
+    }
+
+    .page_2 .content .top h4 {
+        font-size: .8em;
+    }
+
+    .page_2 .content .down i {
+        font-size: 3em;
+    }
+
+    .page_2 .content .down .title {
+        font-size: 1.6em;
+    }
+
+    .down:nth-child(3) .paragraph {
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 633px) {
     .page_3 {
         padding: 9em 4em;
@@ -761,6 +789,10 @@ footer p {
 
     .page_5 ul li p.title {
         font-size: .9em;
+    }
+
+    .page_2 .content .top .title {
+        width: 586px;
     }
 }
 
