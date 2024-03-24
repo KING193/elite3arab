@@ -743,10 +743,12 @@ footer p {
 @media (max-width: 643px) {
     .page_2 .content .top .title {
         font-size: 1.2em;
+        width: 120%;
     }
 
     .page_2 .content .top h4 {
         font-size: .8em;
+        width: 100%;
     }
 
     .page_2 .content .down i {
@@ -757,6 +759,10 @@ footer p {
         font-size: 1.6em;
     }
 
+    .down:nth-child(2) .title {
+        width: 100%;
+    }
+
     .down:nth-child(3) .paragraph {
         font-size: 1em;
     }
@@ -765,6 +771,12 @@ footer p {
 @media (max-width: 633px) {
     .page_3 {
         padding: 9em 4em;
+    }
+}
+
+@media (max-width: 619px) {
+    .page_2 .content .top .title {
+        width: 130%;
     }
 }
 
